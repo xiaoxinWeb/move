@@ -17,9 +17,12 @@
     "jquery": "^3.5.1",
     "less": "^3.12.2",
     "less-loader": "^7.0.2",
+    "swiper": "^6.3.3",
     "vant": "^2.10.9",
     "vue": "^2.5.2",
-    "vue-router": "^3.0.1"
+    "vue-awesome-swiper": "^4.1.1",
+    "vue-router": "^3.0.1",
+    "webpack-dev-server": "^2.9.1"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
@@ -79,7 +82,6 @@
     "vue-template-compiler": "^2.5.2",
     "webpack": "^3.6.0",
     "webpack-bundle-analyzer": "^2.9.0",
-    "webpack-dev-server": "^2.9.1",
     "webpack-merge": "^4.1.0"
   },
   "engines": {
