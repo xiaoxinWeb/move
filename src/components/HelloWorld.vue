@@ -20,7 +20,7 @@ import { Swiper, SwiperSlide } from "swiper/vue";
 export default {
   components: {
     Swiper,
-    SwiperSlide,
+    SwiperSlide
   },
   methods: {
     onSwiper(swiper) {
@@ -28,7 +28,7 @@ export default {
     },
     onSlideChange() {
       console.log("slide change");
-    },
-  },
+    }
+  }
 };
 </script>

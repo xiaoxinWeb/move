@@ -173,6 +173,8 @@
   flex-direction: column;
 }
 .trad-list {
+  width: 190px;
+  height: 190px;
   padding: 10px;
   border: 2px solid #1f9999;
   margin: 20px;
@@ -195,6 +197,10 @@
 .trad-list p {
   text-align: center;
   color: #333333;
+      display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
 }
 /* 渠道 */
 .channel {
@@ -274,7 +280,7 @@
   height: 94px;
 }
 .support-box {
-  width: 505px;
+  width: 100%;
   display: flex;
   justify-content: center;
   flex-direction: row;
@@ -300,13 +306,15 @@
   margin-top: 40px;
 }
 .support-text {
-  width: 267px;
+  width: 300px;
   display: flex;
+  line-height: 40px;
   justify-content: center;
   align-items: center;
   text-align: center;
   color: #000;
   background: #eeeeee;
+  white-space: nowrap;
 }
 /* 加盟 */
 .join {
@@ -510,24 +518,24 @@ input::-webkit-input-placeholder {
                 </div>
             </div>
             <div class="logo-box">
-                <img src="../assets/dianpu1.png" alt="">
+                <img src="../assets/dianpu3.png" alt="">
                 <div class="logo-text">
-                    <h3>强品牌</h3>
-                    <p>10000+家店</p>
+                    <h3>低门槛</h3>
+                    <p>包教包会</p>
+                </div>
+            </div>
+            <div class="logo-box">
+                <img src="../assets/dianpu2.png" alt="">
+                <div class="logo-text">
+                    <h3>八大优势</h3>
+                    <p>锁定美白市场</p>
                 </div>
             </div>
             <div class="logo-box">
                 <img src="../assets/dianpu1.png" alt="">
                 <div class="logo-text">
-                    <h3>强品牌</h3>
-                    <p>10000+家店</p>
-                </div>
-            </div>
-            <div class="logo-box">
-                <img src="../assets/dianpu1.png" alt="">
-                <div class="logo-text">
-                    <h3>强品牌</h3>
-                    <p>10000+家店</p>
+                    <h3>六大扶持</h3>
+                    <p>解决开店难题</p>
                 </div>
             </div>
         </div>
@@ -571,46 +579,47 @@ input::-webkit-input-placeholder {
                     <!-- 显示 -->
                     <div class="trad-li">
                         <div class="trad-list">
-                            <img src="../assets/fuwu.png" alt="">
+                            <img src="../assets/fuwu1.png" alt="">
                             <div class="block"></div>
                             <p>成本上升</br>美容院盈利缩小</p>
                         </div>
                          <div class="trad-list">
-                            <img src="../assets/fuwu.png" alt="">
+                            <img src="../assets/fuwu2.png" alt="">
                             <div class="block"></div>
-                            <p>成本上升</br>美容院盈利缩小</p>
+                            <p>顾客到店率减低</p>
                         </div>
                          <div class="trad-list">
-                            <img src="../assets/fuwu.png" alt="">
+                            <img src="../assets/fuwu3.png" alt="">
                             <div class="block"></div>
-                            <p>成本上升</br>美容院盈利缩小</p>
+                            <p>服务无亮点</p>
                         </div>
                          <div class="trad-list">
-                            <img src="../assets/fuwu.png" alt="">
+                            <img src="../assets/fuwu4.png" alt="">
                             <div class="block"></div>
-                            <p>成本上升</br>美容院盈利缩小</p>
+                            <p>营销渠道窄</p>
                         </div>
                     </div>
                     <div class="trad-li">
                         <div class="trad-list">
-                            <img src="../assets/fuwu.png" alt="">
+                            <img src="../assets/fuwu5.png" alt="">
                             <div class="block"></div>
-                            <p>成本上升</br>美容院盈利缩小</p>
+                            <p>投入较大风险较高</p>
                         </div>
                          <div class="trad-list">
-                            <img src="../assets/fuwu.png" alt="">
+                            <img src="../assets/fuwu6.png" alt="">
                             <div class="block"></div>
-                            <p>成本上升</br>美容院盈利缩小</p>
+                            <p>部分美容项目</br>产品过剩严重</p>
+
                         </div>
                          <div class="trad-list">
-                            <img src="../assets/fuwu.png" alt="">
+                            <img src="../assets/fuwu7.png" alt="">
                             <div class="block"></div>
-                            <p>成本上升</br>美容院盈利缩小</p>
+                            <p>客户复购少</br>流量成本大</p>
                         </div>
                          <div class="trad-list">
-                            <img src="../assets/fuwu.png" alt="">
+                            <img src="../assets/fuwu8.png" alt="">
                             <div class="block"></div>
-                            <p>成本上升</br>美容院盈利缩小</p>
+                            <p>同质化加剧</br>竞争激烈</p>
                         </div>
                     </div>
             </div>
@@ -628,8 +637,8 @@ input::-webkit-input-placeholder {
         <!-- 产品图片 -->
         <div class="prad-line">
             <div class="lin-list">
-                <img src="../assets/lin2.png" alt="">
-                <div class="lin-box">
+                <img src="../assets/ren1.png" alt="">
+                <div class="lin-box" style="margin-top:-10px">
                     产品见效快</br>无毒副作用</br>消费者认可
                 </div>
             </div>
@@ -640,7 +649,7 @@ input::-webkit-input-placeholder {
                 <img src="../assets/lin2.png" alt="">
             </div>
             <div class="lin-list">
-                <img src="../assets/lin2.png" alt="">
+                <img src="../assets/ren2.png" alt="">
                 <div class="lin-box">
                     产品资质齐全</br>培训证书资质齐全
                 </div>
@@ -649,7 +658,7 @@ input::-webkit-input-placeholder {
                 <div class="lin-box">
                     后期持续更新技术</br>保持市场领先
                 </div>
-                <img src="../assets/lin2.png" alt="">
+                <img src="../assets/ren3.png" alt="">
             </div>
         </div>
 
@@ -660,29 +669,29 @@ input::-webkit-input-placeholder {
          <div class="prad-line">
             <div class="lin-list">
                 <div class="lin-box block">
-                    产品见效快</br>无毒副作用</br>消费者认可
+                   后续营销策划</br>活动策划扶持
                 </div>
-                <img src="../assets/lin2.png" alt="">
+                <img src="../assets/ren4.png" alt="">
                 
             </div>
             <div class="lin-list">
                 
-                <img src="../assets/lin2.png" alt="">
+                <img src="../assets/ren5.png" alt="">
                 <div class="lin-box block">
-                   产品线齐全</br>技术齐全</br>一店多盈
+                   强运营技术</br>新客不断</br>老客复购
                 </div>
             </div>
           
              <div class="lin-list">
                 <div class="lin-box block">
-                    后期持续更新技术</br>保持市场领先
+                    师资力量强大</br> 一对一辅导 </br>包教包会
                 </div>
-                <img src="../assets/lin2.png" alt="">
+                <img src="../assets/ren6.png" alt="">
             </div>
               <div class="lin-list">
-                <img src="../assets/lin2.png" alt="">
+                <img src="../assets/ren7.png" alt="">
                 <div class="lin-box block">
-                    产品资质齐全</br>培训证书资质齐全
+                   开业全程扶持</br>一次活动</br>收回成本
                 </div>
             </div>
         </div>
@@ -701,21 +710,21 @@ input::-webkit-input-placeholder {
             <div class="support-box">
                 <div class="support-ul">
                     <div class="support-list">
-                        <img src="../assets/yuan.png" alt="">
+                        <img src="../assets/yuan1.png" alt="">
                        <div class="support-text">
-                           不会开店？</br> 强大的开店运营团队，</br> 从选址到装修，开业全程扶持
+                           没有技术?</br> 培训后颁发职业资格证书</br> 社会认可,一技傍身,如千金在手
                        </div>
                     </div>
                     <div class="support-list">
-                        <img src="../assets/yuan.png" alt="">
+                        <img src="../assets/yuan1.png" alt="">
                        <div class="support-text">
-                           不会开店？</br> 强大的开店运营团队，</br> 从选址到装修，开业全程扶持
+                           不会开店?</br> 强大的开店运营团队,</br> 从选址到装修,开业全程扶持
                        </div>
                     </div>
                     <div class="support-list">
-                        <img src="../assets/yuan.png" alt="">
+                        <img src="../assets/yuan1.png" alt="">
                        <div class="support-text">
-                           不会开店？</br> 强大的开店运营团队，</br> 从选址到装修，开业全程扶持
+                           没有经验?</br> 全国10000+开店经验扶持,</br> 全面扶持解决开业经验问题
                        </div>
                     </div>
                     </div>
@@ -723,19 +732,19 @@ input::-webkit-input-placeholder {
                     <div class="support-list">
                         <img src="../assets/yuan.png" alt="">
                        <div class="support-text">
-                           不会开店？</br> 强大的开店运营团队，</br> 从选址到装修，开业全程扶持
+                           不会营销?</br> 总部全程扶持,</br> 专业的营销团队,全年营销活动策划
                        </div>
                     </div>
                     <div class="support-list">
                         <img src="../assets/yuan.png" alt="">
                        <div class="support-text">
-                           不会开店？</br> 强大的开店运营团队，</br> 从选址到装修，开业全程扶持
+                           没有客流?</br> 强大的运营基础,新店不愁客流</br> (主要是美团/团购/淘宝/阿里本地生活运营)
                        </div>
                     </div>
                     <div class="support-list">
                         <img src="../assets/yuan.png" alt="">
                        <div class="support-text">
-                           不会开店？</br> 强大的开店运营团队，</br> 从选址到装修，开业全程扶持
+                           没有产品?</br> 公司产品质量过硬,资质背书齐全,</br> 产品见效快,无毒副作用
                        </div>
                     </div>
                     </div>
@@ -754,22 +763,22 @@ input::-webkit-input-placeholder {
         <div class="flex-img">
             <img src="../assets/dian1.jpg" alt="" class="img1">
             <img src="../assets/dian1.jpg" alt="" class="img2">
-            <img src="../assets/dian1.jpg" alt="" class="img3">
-             <img src="../assets/dian1.jpg" alt="" class="img7">
+            <img src="../assets/dian3.png" alt="" class="img3">
+             <img src="../assets/dian7.png" alt="" class="img7">
             <img src="../assets/dian1.jpg" alt="" class="img4">
-            <img src="../assets/dian1.jpg" alt="" class="img5">
-            <img src="../assets/dian1.jpg" alt="" class="img6">
+            <img src="../assets/dian5.jpg" alt="" class="img5">
+            <img src="../assets/dian6.png" alt="" class="img6">
            
-            <img src="../assets/dian1.jpg" alt="" class="img8">
-            <img src="../assets/dian1.jpg" alt="" class="img9">
+            <img src="../assets/dian8.png" alt="" class="img8">
+            <img src="../assets/dian9.jpg" alt="" class="img9">
         </div>
         <!-- 荣誉资质 -->
         <div class="zizhi">
             <img src="../assets/zizhi.png" alt="">
             <div class="zizhi-list">
               <img src="../assets/zizhi1.jpg" alt="">
-              <img src="../assets/zizhi1.jpg" alt="">
-              <img src="../assets/zizhi1.jpg" class="zizhi3" alt="">
+              <img src="../assets/zizhi2.jpg" alt="">
+              <img src="../assets/zizhi3.jpg" class="zizhi3" alt="">
             </div>
         </div>
         <!-- 底部 -->
